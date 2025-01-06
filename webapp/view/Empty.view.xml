@@ -1,0 +1,5 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+    <Page title="Empty">
+        <Image src="https://wallpapercave.com/wp/vDy3sUb.jpg" width="100%" height="100%" />
+    </Page>
+</mvc:View>

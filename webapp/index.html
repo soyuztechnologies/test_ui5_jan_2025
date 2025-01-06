@@ -1,0 +1,29 @@
+<html>
+    <head>  
+
+        <!-- loading of sap ui5 framework => Bootstrap -->
+         <!-- ./ current working directory = webapp to refer future files -->
+        <script src="https://ui5.sap.com/resources/sap-ui-core.js"
+                data-sap-ui-libs="sap.m"
+                data-sap-ui-theme="sap_fiori_3_dark"
+                data-sap-ui-resourceroots='{
+                    "ey.sd.sls": "./"
+                }'
+                data-sap-ui-bindingSyntax="complex"
+        ></script>
+
+        <script>
+
+            var oCompContainer = new sap.ui.core.ComponentContainer({
+                name: 'ey.sd.sls'
+            });
+
+            oCompContainer.placeAt("content");
+            
+        </script>
+
+    </head>
+    <body class="sapUiBody">
+        <div id="content"></div>
+    </body>
+</html>
