@@ -9,4 +9,5 @@ server:
     configuration:
       backend:
       - path: /sap
+        destination: S4HANA
         url: http://s4dev.st.com:8021
